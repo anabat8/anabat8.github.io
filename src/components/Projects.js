@@ -2,6 +2,8 @@ import React from 'react';
 import { Carousel } from 'flowbite-react';
 import Connect4Pic from "../images/Connect4.jpg"
 import QuizzzzPic from "../images/Quizzzz.jpg"
+import toDoListPic from "../images/toDoList.png"
+import CarouselCaption from './CarouselCaption';
 
 const customTheme = {
     root: {
@@ -43,11 +45,36 @@ export default function Projects() {
                 </h1>
                 <hr className="w-28 md:w-48 h-1 my-4 mx-4 bg-pinkStandard border-0 rounded md:my-10" />
             </div>
-            <div className="h-40 md:h-96">
-            <Carousel pauseOnHover theme={customTheme}>
-                <img className="opacity-75 object-fill" src={Connect4Pic} alt="Connect 4 JS game"/>
-                <img className="opacity-75 object-scale-down" src={QuizzzzPic} alt="Quizzzz! Java multiplayer game" />
-            </Carousel>
+            <div className="h-32 md:h-96">
+              <Carousel pauseOnHover theme={customTheme}>
+                <div className="relative flex justify-center items-center">
+                  <img className="opacity-50" src={Connect4Pic} alt="Connect 4 JS game"/>
+                  <CarouselCaption
+                    title="Connect 4"
+                    subtitle="a variant of the classical game"
+                    technologies="JS, Node.js"
+                    link="https://github.com/tdrAndrei/Connect4"
+                  />
+                </div>
+                <div className="relative flex justify-center items-center">
+                  <img className="opacity-50" src={QuizzzzPic} alt="Quizzzz! Java multiplayer game" />
+                    <CarouselCaption
+                        title="Quizzzz!"
+                        subtitle="multiplayer game tackling energy consumption"
+                        technologies="Java, Spring Boot"
+                        link=""
+                    />
+                </div>
+                <div className="relative flex justify-center items-center">
+                  <img className="opacity-60" src={toDoListPic} alt="To do list app" />
+                    <CarouselCaption
+                        title="To Do List"
+                        subtitle="an app to organise your daily activities"
+                        technologies="Spring Boot & Security, React.js"
+                        link="https://github.com/anabat8/to-do-app"
+                    />
+                </div>
+              </Carousel>
             </div>
         </div>
     );
