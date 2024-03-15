@@ -4,6 +4,7 @@ import Timeline from "./components/Timeline";
 import About from "./components/About";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Timeline>
           <About/>
           <TechStack/>
+          <Experience/>
           <Projects/>
         </Timeline>
       </div>

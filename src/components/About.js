@@ -26,10 +26,10 @@ export default function About() {
                 In my free time, I enjoy writing creatively, practicing sports and travelling.
             </p>
             <div className="my-5">
-            <Button size="sm" gradientDuoTone="redToYellow">
-                <IoMdMail className="text-lg mr-2" /> 
-                <a href="mailto:anabatrineanu88@gmail.com" className="font-poppins font-semibold">Let's chat!</a>
-            </Button>
+                <Button size="sm" gradientDuoTone="redToYellow">
+                    <IoMdMail className="text-lg mr-2" /> 
+                    <a href="mailto:anabatrineanu88@gmail.com" className="font-poppins font-semibold">Let's chat!</a>
+                </Button>
             </div>
         </div>
     );

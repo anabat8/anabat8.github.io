@@ -37,7 +37,7 @@ module.exports = {
       }),
       animation: {
         blink: 'blink 1s ease-in-out infinite',
-        easeInAndScale: 'transition ease-in-out duration-100 hover:scale-110'
+        easeInTransition: 'transition ease-in-out duration-100',
       },
       display: ["group-hover"],
       keyframes: {

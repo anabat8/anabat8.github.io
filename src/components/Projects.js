@@ -41,8 +41,8 @@ const customTheme = {
 
 const customCardTheme = {
     root: {
-      base: "max-w-sm h-auto my-5 md:my-10 flex rounded-lg border border-opacity-40 border-transparent border-2 bg-white bg-opacity-50 shadow-md transition ease-in-out duration-100 hover:scale-110",
-      children: "flex h-full flex-col justify-center gap-3 p-6",
+      base: "max-w-sm h-auto my-5 md:my-10 flex rounded-lg border border-opacity-40 border-transparent border-2 bg-white bg-opacity-50 shadow-md animate-easeInTransition hover:scale-110 duration-150",
+      children: "flex h-full flex-col justify-start gap-3 p-6",
       horizontal: {
         off: "flex-col",
         on: "flex-col md:max-w-xl md:flex-row"
@@ -68,9 +68,9 @@ export default function Projects() {
                 <hr className="w-28 md:w-48 h-1 my-4 mx-4 bg-pinkStandard border-0 rounded md:my-10" />
             </div>
             <div className="md:h-72 lg:h-96 xl:h-[33rem] hidden md:block ">
-              <Carousel pauseOnHover theme={customTheme}>
-                <div className="group relative flex justify-center items-center">
-                  <img className="transition ease-in-out duration-100 group-hover:blur-2xl" src={Connect4Pic} alt="Connect 4 JS game"/>
+              <Carousel pauseOnHover theme={customTheme} className='group'>
+                <div className="relative flex justify-center items-center">
+                  <img className="animate-easeInTransition group-hover:blur-2xl duration-200" src={Connect4Pic} alt="Connect 4 JS game"/>
                   <CarouselCaption
                     title="Connect 4"
                     subtitle="a variant of the classical game"
@@ -79,7 +79,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className="group relative flex justify-center items-center">
-                  <img className="transition ease-in-out duration-100 group-hover:blur-xl" src={QuizzzzPic} alt="Quizzzz! Java multiplayer game" />
+                  <img className="animate-easeInTransition group-hover:blur-xl duration-200" src={QuizzzzPic} alt="Quizzzz! Java multiplayer game" />
                   <CarouselCaption
                     title="Quizzzz!"
                     subtitle="multiplayer game tackling energy consumption"
@@ -88,7 +88,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className="group relative flex justify-center items-center">
-                  <img className="transition ease-in-out duration-100 group-hover:blur-xl" src={toDoListPic} alt="To do list app" />
+                  <img className="animate-easeInTransition group-hover:blur-xl duration-200" src={toDoListPic} alt="To do list app" />
                   <CarouselCaption
                     title="To Do List"
                     subtitle="an app to organise your daily activities"
@@ -97,7 +97,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className="group relative flex justify-center items-center">
-                  <img className="transition ease-in-out duration-100 group-hover:blur-xl" src={rayTracerPic} alt="Ray Tracer" />
+                  <img className="animate-easeInTransition group-hover:blur-xl duration-200" src={rayTracerPic} alt="Ray Tracer" />
                   <CarouselCaption
                     title="Ray Tracer"
                     subtitle=""
@@ -107,7 +107,7 @@ export default function Projects() {
                 </div>
               </Carousel>
             </div>
-            <div className="md:grid md:grid-cols-3 md:gap-8">
+            <div className="grid grid-row-3 justify-items-center lg:grid-cols-3 lg:gap-8">
               <Card theme={customCardTheme}>
                 <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
                   Grocery robot 🤖 
@@ -115,10 +115,10 @@ export default function Projects() {
                 <p className="font-normal text-navy font-poppins">
                   Designed a self-sufficient grocery robot using an Artificial Neural Network, Genetic Algorithms, Swarm Intelligence (Ant Colony Optimization Algorithm) for pathfinding, and Reinforcement Learning for optimization.
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="animate-easeInAndScale bg-gradient-card" size="sm">Python</Badge>
-                  <Badge className="animate-easeInAndScale bg-gradient-card" size="sm">Machine Learning</Badge>
-                  <Badge className="animate-easeInAndScale bg-gradient-card" size="sm">NP-Hard</Badge>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Machine Learning</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">NP-Hard</Badge>
                 </div>
               </Card>
               <Card theme={customCardTheme}>
@@ -130,8 +130,8 @@ export default function Projects() {
                   <br></br>
                   Some notable functionalities of Paret were: type checking, lazy evaluation, mutation and state. 
                 </p>
-                <div className="flex items-center justify-center">
-                  <Badge className="animate-easeInAndScale" color="pink" size="sm">Scala</Badge>
+                <div className="mt-auto flex">
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Scala</Badge>
                 </div>
               </Card>
               <Card theme={customCardTheme}>
@@ -142,10 +142,10 @@ export default function Projects() {
                   Collaboratively developed the backend of an application using a microservices architecture and domain driven design.
                   The system allows authenticated users to request and schedule processor time from a supercomputer.
                 </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge className="animate-easeInAndScale" color="purple" size="sm">Java</Badge>
-                  <Badge className="animate-easeInAndScale" color="purple" size="sm">Spring Boot</Badge>
-                  <Badge className="animate-easeInAndScale" color="purple" size="sm">Spring Security</Badge>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition" color="purple" size="sm">Java</Badge>
+                  <Badge className="animate-easeInTransition" color="purple" size="sm">Spring Boot</Badge>
+                  <Badge className="animate-easeInTransition" color="purple" size="sm">Spring Security</Badge>
                 </div>
               </Card>
             </div>
