@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4b4aa21.css",
-    "main.js": "/static/js/main.bfaaa10f.js",
+    "main.css": "/static/css/main.325bf845.css",
+    "main.js": "/static/js/main.236f0c2d.js",
     "static/js/787.9ea67092.chunk.js": "/static/js/787.9ea67092.chunk.js",
     "static/media/neural-network.png": "/static/media/neural-network.8c349653131d9bc201c0.png",
     "static/media/toDoList.jpg": "/static/media/toDoList.a9b9a89f82f546838d94.jpg",
@@ -9,13 +9,15 @@
     "static/media/Quizzzz.jpg": "/static/media/Quizzzz.8ed3704d1f051bacf4c6.jpg",
     "static/media/Connect4.jpg": "/static/media/Connect4.8bcdc6e0f6d9f42aab9f.jpg",
     "static/media/rayTracer.jpg": "/static/media/rayTracer.484527009e9ad7baa2b3.jpg",
+    "static/media/netcompany.svg": "/static/media/netcompany.e333549f93608c36105a7d2b1bbc3051.svg",
     "index.html": "/index.html",
-    "main.e4b4aa21.css.map": "/static/css/main.e4b4aa21.css.map",
-    "main.bfaaa10f.js.map": "/static/js/main.bfaaa10f.js.map",
+    "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
+    "main.325bf845.css.map": "/static/css/main.325bf845.css.map",
+    "main.236f0c2d.js.map": "/static/js/main.236f0c2d.js.map",
     "787.9ea67092.chunk.js.map": "/static/js/787.9ea67092.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4b4aa21.css",
-    "static/js/main.bfaaa10f.js"
+    "static/css/main.325bf845.css",
+    "static/js/main.236f0c2d.js"
   ]
 }
