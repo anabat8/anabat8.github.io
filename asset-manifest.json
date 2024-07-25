@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.325bf845.css",
-    "main.js": "/static/js/main.236f0c2d.js",
+    "main.css": "/static/css/main.e3baf8eb.css",
+    "main.js": "/static/js/main.dcc30fe8.js",
     "static/js/787.9ea67092.chunk.js": "/static/js/787.9ea67092.chunk.js",
     "static/media/neural-network.png": "/static/media/neural-network.8c349653131d9bc201c0.png",
     "static/media/toDoList.jpg": "/static/media/toDoList.a9b9a89f82f546838d94.jpg",
@@ -9,15 +9,17 @@
     "static/media/Quizzzz.jpg": "/static/media/Quizzzz.8ed3704d1f051bacf4c6.jpg",
     "static/media/Connect4.jpg": "/static/media/Connect4.8bcdc6e0f6d9f42aab9f.jpg",
     "static/media/rayTracer.jpg": "/static/media/rayTracer.484527009e9ad7baa2b3.jpg",
+    "static/media/hf-logo.svg": "/static/media/hf-logo.8bcf2fb06963c8b86261887b500daccd.svg",
+    "static/media/Google.svg": "/static/media/Google.efa560d32653a615a1db742bbf78c815.svg",
     "static/media/netcompany.svg": "/static/media/netcompany.e333549f93608c36105a7d2b1bbc3051.svg",
     "index.html": "/index.html",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
-    "main.325bf845.css.map": "/static/css/main.325bf845.css.map",
-    "main.236f0c2d.js.map": "/static/js/main.236f0c2d.js.map",
+    "main.e3baf8eb.css.map": "/static/css/main.e3baf8eb.css.map",
+    "main.dcc30fe8.js.map": "/static/js/main.dcc30fe8.js.map",
     "787.9ea67092.chunk.js.map": "/static/js/787.9ea67092.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.325bf845.css",
-    "static/js/main.236f0c2d.js"
+    "static/css/main.e3baf8eb.css",
+    "static/js/main.dcc30fe8.js"
   ]
 }
