@@ -7,6 +7,7 @@ import rayTracerPic from "../images/rayTracer.jpg"
 import CarouselCaption from './CarouselCaption';
 import { Card } from 'flowbite-react';
 import { Badge } from 'flowbite-react';
+import {ReactComponent as RPIcon} from '../images/hf-logo.svg'
 
 const customTheme = {
     root: {
@@ -107,7 +108,28 @@ export default function Projects() {
                 </div>
               </Carousel>
             </div>
-            <div className="grid grid-row-3 justify-items-center lg:grid-cols-3 lg:gap-8">
+            <div className="grid grid-row-3 justify-items-center lg:gap-y-1 lg:grid-cols-3 lg:gap-x-8">
+            <Card theme={customCardTheme}>
+                <div className="flex items-center space-x-2">
+                  <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins flex items-center">
+                    Research project
+                    <RPIcon className="h-9 w-9 text-navy ml-2" /> 
+                  </h5>
+                </div>
+                <p className="font-normal text-navy font-poppins">
+                  Investigated whether Inverse Reinforcement Learning can complement Reinforcement Learning from Human Feedback for query reduction.
+                  <br></br>
+                  <a className="text-navy font-semibold" href="https://repository.tudelft.nl/record/uuid:a17dc948-dbbf-4b1d-84df-8fde8c2fadde" target="_blank" rel="noopener noreferrer">
+                    Link to thesis
+                  </a>
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Reinforcement Learning</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Gymnasium</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">TensorBoard</Badge>
+                </div>
+              </Card>
               <Card theme={customCardTheme}>
                 <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
                   Grocery robot 🤖 
@@ -146,6 +168,25 @@ export default function Projects() {
                   <Badge className="animate-easeInTransition" color="purple" size="sm">Java</Badge>
                   <Badge className="animate-easeInTransition" color="purple" size="sm">Spring Boot</Badge>
                   <Badge className="animate-easeInTransition" color="purple" size="sm">Spring Security</Badge>
+                </div>
+              </Card>
+              <Card theme={customCardTheme}>
+                <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
+                  JSON processor
+                </h5>
+                <p className="font-normal text-navy font-poppins">
+                  Implemented a clone of
+                  <a href="https://jqlang.github.io/jq/" target="_blank" rel="noopener noreferrer" className="ml-1">
+                  jq
+                  </a>
+                  , a lightweight and flexible command-line JSON processor, in Haskell. 
+                  <br></br>
+                  Some notable features were: parse, interpret and pretty-print valid JSONs, implement basic filters and try-catch expressions.
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition" color="purple" size="sm">Haskell</Badge>
+                  <Badge className="animate-easeInTransition" color="purple" size="sm">Functional programming</Badge>
+                  <Badge className="animate-easeInTransition" color="purple" size="sm"></Badge>
                 </div>
               </Card>
             </div>

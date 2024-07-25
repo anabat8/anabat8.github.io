@@ -1,5 +1,6 @@
 import React from "react";
 import { Tabs } from 'flowbite-react';
+import {ReactComponent as GoogleLogo} from '../images/Google.svg'
 import {ReactComponent as MicrosoftLogo} from '../images/Microsoft_logo.svg'
 import {ReactComponent as NetcompanyLogo} from '../images/netcompany.svg'
 
@@ -47,6 +48,27 @@ export default function Experience() {
         </div>
         <div className="overflow-x-auto">
             <Tabs aria-label="Tabs with underline" style="underline" theme={customTheme}>
+                <Tabs.Item active title="GOOGLE" icon={GoogleLogo}>
+                  <div className="font-poppins text-navy font-semibold drop-shadow-sm space-y-4">
+                      <h1 className="md:text-xl text-md">
+                        Software Engineer Intern
+                        <b className=" text-pink-800"> @ Google </b>
+                      </h1>
+                      <br></br>
+                      <b className="text-gray-500 text-sm md:text-base">JUL 2024 - SEPT 2024</b>
+                      <ul className="space-y-4 list-disc list-inside text-sm md:text-base">
+                        <li>
+                          Joined the HOPE team on the Google Cloud Platform
+                        </li>
+                        <li>
+                          Working on improving observability, implementing probers and monitoring dashboards
+                        </li>
+                        <li>
+                          Tech: Go
+                        </li>
+                      </ul>
+                  </div>
+                </Tabs.Item>
                 <Tabs.Item active title="MICROSOFT" icon={MicrosoftLogo}>
                     <div className="font-poppins text-navy font-semibold drop-shadow-sm space-y-4">
                       <h1 className="md:text-xl text-md">

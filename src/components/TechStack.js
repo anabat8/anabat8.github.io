@@ -35,6 +35,10 @@ export default function TechStack() {
                     </li>
                     <li className="flex items-center">
                         <IoCheckmarkOutline className="mr-2"/>
+                        Go
+                    </li>
+                    <li className="flex items-center">
+                        <IoCheckmarkOutline className="mr-2"/>
                         Scala
                     </li>
                     <li className="flex items-center">
