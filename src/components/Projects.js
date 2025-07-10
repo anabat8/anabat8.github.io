@@ -125,9 +125,30 @@ export default function Projects() {
                 </p>
                 <div className="mt-auto flex flex-wrap gap-2">
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">PyTorch</Badge>
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Reinforcement Learning</Badge>
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Gymnasium</Badge>
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">TensorBoard</Badge>
+                </div>
+              </Card>
+              <Card theme={customCardTheme}>
+                <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
+                  <a
+                    href="https://github.com/anabat8/afp-project/tree/lifetimes-branch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    Rust-like Language with Ownership Types
+                  </a>
+                </h5>
+                <p className="font-normal text-navy font-poppins">
+                  Developed a simple Rust-like language in Haskell with ownership types that ensure memory safety in programs, with a focus on ownership, borrowing, mutability and lifetime tracking.
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Haskell</Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Rust</Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Functional Programming</Badge>
                 </div>
               </Card>
               <Card theme={customCardTheme}>
@@ -141,6 +162,31 @@ export default function Projects() {
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Machine Learning</Badge>
                   <Badge className="animate-easeInTransition bg-gradient-card" size="sm">NP-Hard</Badge>
+                </div>
+              </Card>
+              <Card theme={customCardTheme}>
+                <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
+                  Suggesting loop parallelization strategies with LLVM
+                </h5>
+                <p className="font-normal text-navy font-poppins">
+                  Implemented a pass in LLVM using its API to determine whether loops in C programs are parallelizable under common patterns (e.g., work-sharing, reduction), 
+                  and to suggest OpenMP-based parallelization strategies.
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">C++</Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">LLVM</Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">OpenMP</Badge>
+                </div>
+              </Card>
+              <Card theme={customCardTheme}>
+                <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
+                  Sequential Decision Making Algorithms
+                </h5>
+                <p className="font-normal text-navy font-poppins">
+                  Completed university coursework on multi-armed and contextual bandits, deep Q-learning (DQN), and formal verification of reinforcement learning using Z3 SMT solver and neural network controllers.
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
                 </div>
               </Card>
               <Card theme={customCardTheme}>
@@ -184,9 +230,21 @@ export default function Projects() {
                   Some notable features were: parse, interpret and pretty-print valid JSONs, implement basic filters and try-catch expressions.
                 </p>
                 <div className="mt-auto flex flex-wrap gap-2">
-                  <Badge className="animate-easeInTransition" color="purple" size="sm">Haskell</Badge>
-                  <Badge className="animate-easeInTransition" color="purple" size="sm">Functional programming</Badge>
-                  <Badge className="animate-easeInTransition" color="purple" size="sm"></Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Haskell</Badge>
+                  <Badge className="animate-easeInTransition" color="pink" size="sm">Functional Programming</Badge>
+                </div>
+              </Card>
+              <Card theme={customCardTheme}>
+                <h5 className="text-lg md:text-2xl font-bold tracking-tight text-navy font-poppins">
+                  Data Mining Techniques
+                </h5>
+                <p className="font-normal text-navy font-poppins">
+                  Implemented a recommender system for a startup firm (used min-hashing, NMF).
+                  Applied anomaly detection algorithms in a SCADA system and graph mining algorithms on a dataset of medium articles,
+                  in order to categorize the articles to a set of topic tags.
+                </p>
+                <div className="mt-auto flex flex-wrap gap-2">
+                  <Badge className="animate-easeInTransition bg-gradient-card" size="sm">Python</Badge>
                 </div>
               </Card>
             </div>

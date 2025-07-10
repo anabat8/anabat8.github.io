@@ -12,10 +12,14 @@ export default function About() {
                 <hr className="w-28 md:w-48 h-1 my-4 mx-4 bg-pinkLight border-0 rounded md:my-10" />
             </div>
             <p className="text-navy font-poppins drop-shadow">
-                I am a highly motivated, confident and enthusiastic third year Bachelor's 
-                <b> CSE student </b>
+                I am a highly motivated, confident and enthusiastic second year Master's 
+                <b> CS student </b>
                     at
-                <a href="https://www.tudelft.nl/"> TU Delft </a> 
+                <a href="https://www.tudelft.nl/"> TU Delft </a>
+                specializing in
+                <b> Distributed Systems </b>
+                and
+                <b> Programming Languages </b>
                 with a great passion in 
                 <b> software engineering, data science </b>
                 and 

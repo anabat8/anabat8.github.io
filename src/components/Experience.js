@@ -58,13 +58,32 @@ export default function Experience() {
                       <b className="text-gray-500 text-sm md:text-base">JUL 2024 - SEPT 2024</b>
                       <ul className="space-y-4 list-disc list-inside text-sm md:text-base">
                         <li>
-                          Joined the HOPE team on the Google Cloud Platform
+                          Joined the HOPE (Proxy) team on the Google Cloud Platform in Warsaw, Poland
                         </li>
                         <li>
-                          Working on improving observability, implementing probers and monitoring dashboards
+                          Implemented probers for blackbox monitoring of egress flows using a new
+                          Google infrastructure, increasing HOPE's observability and monitoring
                         </li>
                         <li>
-                          Tech: Go
+                          The new probers are set to send alerts in case of possible issues and are
+                          easily discoverable through Google dashboards
+                        </li>
+                        <li>
+                          Service Extensions enable users to inject custom logic into Google Cloud
+                          Networking products; specifically, they allow users to add customizations into
+                          the networking paths
+                        </li>
+                        <li>
+                          Collaborated with the Service Extensions team by working on a project to
+                          automatize the addition of new such extension types
+                        </li>
+                        <li>
+                          Managed to greatly shorten development time (3-4 w to 2-3 d), make the code
+                          more universal and decrease the amount of possible errors
+                        </li>
+                        <li>
+                          Tech: Go, Python, Google Cloud, Borg (K8s), Bazel and other Google internal
+                          technologies
                         </li>
                       </ul>
                   </div>
