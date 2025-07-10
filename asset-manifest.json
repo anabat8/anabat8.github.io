@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3baf8eb.css",
-    "main.js": "/static/js/main.dcc30fe8.js",
+    "main.js": "/static/js/main.a400624b.js",
     "static/js/787.9ea67092.chunk.js": "/static/js/787.9ea67092.chunk.js",
     "static/media/neural-network.png": "/static/media/neural-network.8c349653131d9bc201c0.png",
     "static/media/toDoList.jpg": "/static/media/toDoList.a9b9a89f82f546838d94.jpg",
@@ -15,11 +15,11 @@
     "index.html": "/index.html",
     "static/media/Microsoft_logo.svg": "/static/media/Microsoft_logo.72f0fcc793eda19cdc1604efc3b381cb.svg",
     "main.e3baf8eb.css.map": "/static/css/main.e3baf8eb.css.map",
-    "main.dcc30fe8.js.map": "/static/js/main.dcc30fe8.js.map",
+    "main.a400624b.js.map": "/static/js/main.a400624b.js.map",
     "787.9ea67092.chunk.js.map": "/static/js/787.9ea67092.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3baf8eb.css",
-    "static/js/main.dcc30fe8.js"
+    "static/js/main.a400624b.js"
   ]
 }
